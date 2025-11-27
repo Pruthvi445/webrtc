@@ -1,0 +1,101 @@
+.whatsapp-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #e5ddd5;
+}
+
+.wa-header {
+  background: #075e54;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wa-chat {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #ece5dd;
+}
+
+.wa-bubble {
+  max-width: 70%;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+.wa-left {
+  background: white;
+  align-self: flex-start;
+  border-radius: 12px 12px 12px 0px;
+}
+
+.wa-right {
+  background: #dcf8c6;
+  align-self: flex-end;
+  border-radius: 12px 12px 0 12px;
+}
+
+.wa-system {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.wa-input {
+  display: flex;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.wa-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.wa-input button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: #128c7e;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+.wa-new {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #25d366;
+  color: white;
+  font-size: 16px;
+}
+
+.wa-home {
+  padding: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.wa-qr {
+  border: 6px solid #128c7e;
+  border-radius: 12px;
+}
+
+.wa-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #25d366;
+  color: white;
+  border-radius: 8px;
+  margin-top: 15px;
+}
